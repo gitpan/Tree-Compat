@@ -1,0 +1,35 @@
+---
+name: Tree-Compat
+version: 1.00
+author: ~
+abstract: a compatibility layer for Tree
+license: perl
+requires:
+  Tree: 1.00
+  UNIVERSAL::require: 0.10
+  perl: 5.6.0
+build_requires:
+  Test::More: 0.47
+provides:
+  Tree::Compat:
+    file: lib/Tree/Compat.pm
+    version: 1.00
+  Tree::Compat::Tree::DAG_Node:
+    file: lib/Tree/Compat/Tree/DAG_Node.pm
+    version: 1.00
+  Tree::Compat::Tree::Nary:
+    file: lib/Tree/Compat/Tree/Nary.pm
+    version: 1.00
+  Tree::Compat::Tree::Simple:
+    file: lib/Tree/Compat/Tree/Simple.pm
+    version: 1.00
+  Tree::DAG_Node:
+    file: lib/Tree/Compat/Tree/DAG_Node.pm
+    version: ~
+  Tree::Nary:
+    file: lib/Tree/Compat/Tree/Nary.pm
+    version: ~
+  Tree::Simple:
+    file: lib/Tree/Compat/Tree/Simple.pm
+    version: ~
+generated_by: Module::Build version 0.2701

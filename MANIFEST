@@ -1,0 +1,25 @@
+Build.PL
+Changes
+Makefile.PL
+MANIFEST			This list of files
+lib/Tree/Compat.pm
+lib/Tree/Compat/Tree/DAG_Node.pm
+lib/Tree/Compat/Tree/Nary.pm
+lib/Tree/Compat/Tree/Simple.pm
+t/000_interface.t
+t/Tree_DAG_Node/000_compat.t
+t/Tree_Nary/000_compat.t
+t/Tree_Nary/allocation.t
+t/Tree_Nary/general.t
+t/Tree_Simple/000_compat.t
+t/Tree_Simple/10_Tree_Simple_test.t
+t/Tree_Simple/11_Tree_Simple_fixDepth_test.t
+t/Tree_Simple/12_Tree_Simple_exceptions_test.t
+t/Tree_Simple/13_Tree_Simple_clone_test.t
+t/Tree_Simple/14_Tree_Simple_leak_test.t
+t/Tree_Simple/15_Tree_Simple_height_test.t
+t/Tree_Simple/16_Tree_Simple_width_test.t
+t/Tree_Simple/20_Tree_Simple_Visitor_test.t
+t/pod.t
+t/tests.pm
+META.yml
